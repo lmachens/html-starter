@@ -1,4 +1,40 @@
 body {
+  font-family: Arial, Helvetica, sans-serif;
   background: rgb(32, 35, 41);
   color: rgb(158, 158, 158);
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background: #fefefe;
+}
+
+.header a {
+  color: rgb(51, 51, 51);
+}
+
+.hero {
+  background: white;
+  color: rgb(32, 35, 41);
+  font-size: 2em;
+}
+
+.characters {
+  background: #24282f;
+}
+
+.character {
+  background: #3c3e44;
+  color: #fff;
+}
+
+.character h3 {
+  color: #9d9d9d;
+}
+
+.character a {
+  color: #fff;
 }
