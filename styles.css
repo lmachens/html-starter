@@ -29,7 +29,11 @@ a {
 }
 
 .characters {
+  padding: 2em;
   background: #24282f;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  grid-gap: 2em;
 }
 
 .character {
